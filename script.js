@@ -16,6 +16,7 @@ function compute()
     ", <br />at an interest rate of " + rate + "%. <br /> You will receive an amount of " +
     interest + ", <br /> in the year " + year;
     }
+    document.getElementById("principal").focus()
 }
 
 function updateRate() 
